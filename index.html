@@ -846,7 +846,8 @@ var myPlacemark = new ymaps.Placemark([55.762041, 37.616122], {}, {
     iconImageOffset: [-3, -42]
 });
 myMap.geoObjects.add(myPlacemark); 
-      }
+myMap.behaviors.disable('scrollZoom');
+}
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>
