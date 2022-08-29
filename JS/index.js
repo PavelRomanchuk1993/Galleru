@@ -65,7 +65,7 @@ const swiper1 = new Swiper('.gallery__swiper', {
   prevEl: '.swiper-button-prev',
   },
   breakpoints: {
-    280: {
+    50: {
       slidesPerView: 1,
       slidesPerGroup: 1, 
     },
@@ -132,7 +132,7 @@ $(".accordion").accordion({
     prevEl: '.swiper-button-prev',
     },
     breakpoints: {
-      280: {
+      50: {
         slidesPerView: 1,
         slidesPerGroup: 1, 
       },
@@ -157,7 +157,7 @@ $(".accordion").accordion({
   prevEl: '.swiper-button-prev',
   },
   breakpoints: {
-    280: {
+    50: {
       slidesPerView: 1,
       slidesPerGroup: 1, 
     },
