@@ -157,23 +157,21 @@ a {
   height: 70px;
   min-width: 100%;
 }
- .header__bottom-nav {
+.header__bottom-nav {
   width: 76%;
   margin-right: 1%;
 }
 .bottom-nav__list {
   padding-left: 7px;
   margin-left: 10%;
-  width: 55%;
+  width: 70%;
 }
- .bottom-element {
+.bottom-element {
   position: relative;
-  display: inline-block;
- }
- .bottom-element:not(:last-child) {
-  margin-right: 9%;
-  padding-right: 8px;
- }
+}
+.bottom-element:not(:last-child) {
+  margin-right: 8.3%;
+}
  .bottom-element__btn {
   background: none;
   font-weight: 400;
@@ -189,10 +187,10 @@ a {
   align-items: center;
   justify-content: center;
   transition: 0.5s ease;
-}
- .bottom-element__btn svg {
- padding-left: 8px;
  }
+ .bottom-element__btn svg {
+  margin-left: 4px;
+}
  .bottom-element__btn:focus-visible {
   background-color: var(--color-79);
   color: var(--color-F);
@@ -211,7 +209,6 @@ a {
  }
  .active--btn svg {
   transform: rotate(180deg) translate(0px, 3px);
-  padding-right: 8px;
   transition: 0.2s ease;
   margin-top: 8px;
 }
@@ -269,7 +266,7 @@ a {
   background-image: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4));
   opacity: 0;
   z-index: 1;
-  transition: 0.5s ease;;
+  transition: 0.5s ease;
 } 
 .bottom-scroll__element:active::before {
   opacity: 1;
@@ -1019,7 +1016,7 @@ transition: 0.2s;
 }
 .events-swiper__prev {
   left: 0%;
-  top: 50.4%;
+  top: 47.4%;
   height: 50px;
   width: 50px;
   background: var(--color-EC);
@@ -1027,11 +1024,10 @@ transition: 0.2s;
   border: none;
 }
 .events-swiper__next {
-  top: 50.4%;
-  left: 97.1%;
+  top: 47.4%;
+  left: 97%;
   height: 50px;
   width: 50px;
-  margin-left: 0px;
   background: var(--color-EC);
   color: var(--color-0);
   border: none;
@@ -2437,7 +2433,7 @@ line-height: 16px;
 }
 .header__nav {
   width: 100%;
-  height: 51%;
+  height: 45.5%;
 }
 .header__burger {
   width: 25px;
@@ -2856,9 +2852,8 @@ p {
   height: 50px;
   background-size: 100% 100%;
 }
-.contacts__map {
+.map {
   max-height: 320px;
-  margin-top: 2px;
 }
 .footer__container {
   flex-direction: column-reverse;
